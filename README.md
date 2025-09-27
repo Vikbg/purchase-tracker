@@ -1,5 +1,5 @@
 # 🛒 Purchase Tracker
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)![Made with Next.js](https://img.shields.io/badge/Made%20with-Next.js-000?logo=nextdotjs)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) ![Made with Next.js](https://img.shields.io/badge/Made%20with-Next.js-000?logo=nextdotjs)
 
 A streamlined tool to monitor and manage your online purchases. Designed to help collectors and enthusiasts keep track of orders, deliveries, and expenses all in one place.
 
