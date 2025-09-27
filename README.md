@@ -1,4 +1,5 @@
 # 🛒 Purchase Tracker
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)![Made with Next.js](https://img.shields.io/badge/Made%20with-Next.js-000?logo=nextdotjs)
 
 A streamlined tool to monitor and manage your online purchases. Designed to help collectors and enthusiasts keep track of orders, deliveries, and expenses all in one place.
 
@@ -34,7 +35,7 @@ pnpm run dev
 ```
 
 📦 Technologies Used
-Frontend: **React**, **Next.js**![Made with Next.js](https://img.shields.io/badge/Made%20with-Next.js-000?logo=nextdotjs), **Tailwind CSS**
+Frontend: **React**, **Next.js**, **Tailwind CSS**
 
 Backend: **NextAuth.js**, **Prisma ORM**
 
@@ -65,6 +66,6 @@ git push origin feature-branch
 Open a Pull Request.
 
 📄 License
-This project is licensed under the MIT License ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) — see the LICENSE file for details.
+This project is licensed under the MIT License — see the LICENSE file for details.
 
 
