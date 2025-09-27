@@ -1,0 +1,16 @@
+(globalThis.TURBOPACK_CHUNK_LISTS || (globalThis.TURBOPACK_CHUNK_LISTS = [])).push({
+    script: typeof document === "object" ? document.currentScript : undefined,
+    chunks: [
+  "static/chunks/c6b16_next_dist_compiled_next-devtools_index_afaed119.js",
+  "static/chunks/c6b16_next_dist_compiled_c7dbd689._.js",
+  "static/chunks/c6b16_next_dist_shared_lib_e9976687._.js",
+  "static/chunks/c6b16_next_dist_client_15a6718b._.js",
+  "static/chunks/c6b16_next_dist_5c0e359e._.js",
+  "static/chunks/c6b16_next_app_b9f4edf2.js",
+  "static/chunks/[next]_entry_page-loader_ts_6fefa396._.js",
+  "static/chunks/c046a_react-dom_812c9f31._.js",
+  "static/chunks/node_modules__pnpm_f012a4b7._.js",
+  "static/chunks/[root-of-the-server]__45f039c3._.js"
+],
+    source: "entry"
+});
