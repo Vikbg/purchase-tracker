@@ -34,7 +34,7 @@ pnpm run dev
 ```
 
 📦 Technologies Used
-Frontend: **React**, **Next.js**, **Tailwind CSS**
+Frontend: **React**, **Next.js**![Made with Next.js](https://img.shields.io/badge/Made%20with-Next.js-000?logo=nextdotjs), **Tailwind CSS**
 
 Backend: **NextAuth.js**, **Prisma ORM**
 
@@ -65,6 +65,6 @@ git push origin feature-branch
 Open a Pull Request.
 
 📄 License
-This project is licensed under the MIT License — see the LICENSE file for details.
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Made with Next.js](https://img.shields.io/badge/Made%20with-Next.js-000?logo=nextdotjs)
+This project is licensed under the MIT License ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg) — see the LICENSE file for details.
+
+
