@@ -4,7 +4,7 @@ modules = ["nodejs-20"]
 
 [nix]
 channel = "stable-24_11"
-packages = ["cowsay", "prisma"]
+packages = ["cowsay", "prisma", "nano"]
 
 [agent]
 expertMode = true
