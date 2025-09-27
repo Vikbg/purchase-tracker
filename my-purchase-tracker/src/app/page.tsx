@@ -36,7 +36,7 @@ const Home = () => {
       </h1>
       <p>Email : {session.user?.email}</p>
       <button
-        onClick={() => signOut({ callbackUrl: "/auth/signout" })}
+        onClick={() => signOut({ callbackUrl: "/" })}
         className="mt-4 p-2 bg-red-600 hover:bg-red-700 text-white rounded transition"
       >
         Se déconnecter

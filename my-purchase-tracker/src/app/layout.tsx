@@ -23,13 +23,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" className="h-full bg-white dark:bg-gray-900">
       <head>
         <meta name="description" content={metadata.description} />
         <meta name="title" content={metadata.title} />
       </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased h-full`}
       >
         <SessionProvider>{children}</SessionProvider>
       </body>

@@ -1,4 +1,5 @@
-run = "cowsay Configure me!"
+run = "cd my-purchase-tracker && npm run dev -- --hostname 0.0.0.0 --port 5000"
+
 entrypoint = "README.md"
 modules = ["nodejs-20"]
 
