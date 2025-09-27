@@ -21,18 +21,15 @@ Clone the repository and install dependencies:
 git clone https://github.com/Vikbg/purchase-tracker.git
 cd purchase-tracker
 pnpm install
-Set up your environment variables by creating a .env file in the root directory:
 
-env
-Copier le code
+Set up your environment variables by creating a .env file in the root directory:
 NEXTAUTH_SECRET=your_secret
 NEXTAUTH_URL=your_url
 DATABASE_URL=your_database_url
-Start the development server:
 
-bash
-Copier le code
+Start the development server:
 pnpm run dev
+
 📦 Technologies Used
 Frontend: React, Next.js, Tailwind CSS
 
@@ -48,20 +45,14 @@ Contributions are welcome! To contribute:
 Fork the repository.
 
 Create a new branch:
-
-bash
-Copier le code
 git checkout -b feature-branch
+
 Commit your changes:
-
-bash
-Copier le code
 git commit -am 'Add new feature'
-Push to the branch:
 
-bash
-Copier le code
+Push to the branch:
 git push origin feature-branch
+
 Open a Pull Request.
 
 📄 License
