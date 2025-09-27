@@ -66,3 +66,5 @@ Open a Pull Request.
 
 📄 License
 This project is licensed under the MIT License — see the LICENSE file for details.
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Made with Next.js](https://img.shields.io/badge/Made%20with-Next.js-000?logo=nextdotjs)
