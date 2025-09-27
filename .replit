@@ -1,6 +1,53 @@
+run = "cowsay Configure me!"
+entrypoint = "README.md"
+modules = ["nodejs-20"]
+
+[nix]
+channel = "stable-24_11"
+packages = ["cowsay"]
+
 [agent]
 expertMode = true
 
 [[ports]]
-localPort = 5000
+localPort = 3000
 externalPort = 80
+
+[[ports]]
+localPort = 3001
+externalPort = 3001
+
+[[ports]]
+localPort = 5000
+externalPort = 5000
+
+[[ports]]
+localPort = 8000
+externalPort = 8000
+
+[[ports]]
+localPort = 32899
+externalPort = 3000
+
+[workflows]
+runButton = "Fast Dev Server"
+
+[[workflows.workflow]]
+name = "Project"
+mode = "parallel"
+author = 1
+
+[[workflows.workflow.tasks]]
+task = "workflow.run"
+args = "Next.js Dev Server"
+
+[[workflows.workflow]]
+name = "Next.js Dev Server"
+author = 1
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "cd my-purchase-tracker && npm run dev -- --hostname 0.0.0.0 --port 5000"
+
+[workflows.workflow.metadata]
+outputType = "webview"
