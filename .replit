@@ -4,7 +4,7 @@ modules = ["nodejs-20"]
 
 [nix]
 channel = "stable-24_11"
-packages = ["cowsay"]
+packages = ["cowsay", "prisma"]
 
 [agent]
 expertMode = true
@@ -20,6 +20,10 @@ externalPort = 3001
 [[ports]]
 localPort = 5000
 externalPort = 5000
+
+[[ports]]
+localPort = 5555
+externalPort = 3002
 
 [[ports]]
 localPort = 8000
