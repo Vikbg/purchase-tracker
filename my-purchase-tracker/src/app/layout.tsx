@@ -1,11 +1,16 @@
 // src/app/layout.tsx
 
-"use client"; 
+import ThemeInitializer from "./providers/ThemeInitializer";
+import AuthProvider from "./providers/AuthProvider";
 
-import { SessionProvider } from "next-auth/react"; // Importer SessionProvider
-import { metadata } from './metadata'; // Importer metadata depuis le fichier metadata.ts
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Purchase Tracker",
+  description: "New Project from viktor_srhk on Instagram.",
+};
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,15 +28,38 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="h-full bg-white dark:bg-gray-900">
+    <html
+      lang="en"
+      className="h-full bg-white dark:bg-gray-900"
+      suppressHydrationWarning
+    >
       <head>
-        <meta name="description" content={metadata.description} />
-        <meta name="title" content={metadata.title} />
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="shortcut icon" href="/favicon.ico" />
+        <meta name="theme-color" content="#ffffff" />
       </head>
+      <ThemeInitializer />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased h-full`}
       >
-        <SessionProvider>{children}</SessionProvider>
+        <AuthProvider>{children}</AuthProvider>
       </body>
     </html>
   );

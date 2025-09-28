@@ -99,7 +99,6 @@ const ToggleSwitch: React.FC<ToggleSwitchProps> = ({
 		checked={enabled}
 		onChange={handleToggle}
 		className="sr-only" // Hide the default checkbox
-		aria-hidden="true"
 	  />
 
 	  {/* Track */}
