@@ -20,6 +20,7 @@
       }
     ],
     "paths": {
+      "@generated/*": ["./src/generated/*"],
       "@/my-purchase-tracker/*": ["./*"],
       "@/*": ["./src/*"]
     }

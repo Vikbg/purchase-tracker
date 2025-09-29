@@ -12,9 +12,8 @@ A streamlined tool to monitor and manage your online purchases. Designed to help
 - **Expense Overview:** Keep tabs on spending across different platforms.
 - **Responsive Interface:** Optimized for both desktop and mobile devices.
 
----
 
-## 🛠 Installation
+## 🛠 Installation  
 
 Clone the repository and install dependencies:
 
@@ -34,7 +33,7 @@ Start the development server:
 pnpm run dev
 ```
 
-📦 Technologies Used
+## 📦 Technologies Used  
 Frontend: **React**, **Next.js**, **Tailwind CSS**
 
 Backend: **NextAuth.js**, **Prisma ORM**
@@ -43,7 +42,8 @@ Database: **PostgreSQL**
 
 Authentication: **Credentials**
 
-🤝 Contributing
+## 🤝 Contributing  
+
 Contributions are welcome! To contribute:
 
 Fork the repository.
@@ -63,9 +63,8 @@ Push to the branch:
 git push origin feature-branch
 ```
 
-Open a Pull Request.
+Open a Pull Request !
 
-📄 License
+
+## 📄 License  
 This project is licensed under the MIT License — see the LICENSE file for details.
-
-

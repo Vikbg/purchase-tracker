@@ -41,7 +41,7 @@ interface ToggleSwitchProps {
   /** The initial state of the switch (true for "on", false for "off"). Defaults to `false`. */
   initialState?: boolean;
   /** A callback function that runs when the switch is toggled. It receives the new boolean state. */
-  onChange?: (enabled: boolean) => void;
+  onChange: (enabled: boolean) => void;
   /** Set to `true` to display icons inside the thumb. Defaults to `false`. */
   withIcons?: boolean;
   /** A React component or SVG to display for the "on" state. Uses a default checkmark if not provided. */
@@ -98,7 +98,7 @@ const ToggleSwitch: React.FC<ToggleSwitchProps> = ({
 		type="checkbox"
 		checked={enabled}
 		onChange={handleToggle}
-		className="sr-only" // Hide the default checkbox
+		className="sr-only" // Hide the default checkbox input
 	  />
 
 	  {/* Track */}

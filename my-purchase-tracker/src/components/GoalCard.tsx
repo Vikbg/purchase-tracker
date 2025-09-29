@@ -1,5 +1,5 @@
 // src/components/GoalCard.tsx
-import { Goal } from '@prisma/client';
+import { Goal } from '@generated/prisma/client';
 
 interface GoalCardProps {
   goal: Goal;
